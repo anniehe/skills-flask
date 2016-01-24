@@ -1,0 +1,24 @@
+/*Your styles can go here.*/
+.inputbox {
+    background-color: #ffffe5;
+    margin-bottom: 7px;
+}
+
+#lname {
+    font-weight: bold;
+}
+
+#instructions {
+    border: 1px solid black;
+    width: 700px;
+    padding: 10px;
+}
+
+form {
+    padding: 5px;
+    margin-top: 30px;
+}
+
+body {
+    font-family: sans-serif;
+}

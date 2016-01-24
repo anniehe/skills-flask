@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Skills-Web</title>
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+    <body>
+        <h1>Job Application Form</h1>
+        <div id="instructions">
+            <p>Please complete all sections of the form below to be considered for a job as a Software Engineer, QA Engineer, or Product Manager. Please enter your salary requirement as a number.</p>
+        </div>
+
+        <form action="/application" method="POST">
+            
+            <label>First Name: <input class="inputbox" type="text" name="firstname"></label><br>
+            
+            <label>Last Name: <input id="lname" class="inputbox" type="text" name="lastname"></label><br>
+            
+            <label>Salary Requirement: $<input class="inputbox" type="text" name="salaryrequirement"></label><br>
+
+            Desired Job Position:
+            <select class="inputbox" name="jobposition">
+                <label><option value="Software Engineer">Software Engineer</option></label>
+                <label><option value="QA Engineer">QA Engineer</option></label>
+                <label><option value="Product Manager">Product Manager</opton></label>
+            </select><br><br><br>
+
+            <input class="inputbox" type="submit">
+
+        </form>
+    </body>
+</html>
