@@ -17,7 +17,7 @@ def index_page():
 
 @app.route("/application-form")
 def show_application_form():
-    """Show job application form."""
+    """Show job application form for user input."""
 
     return render_template("/application-form.html")
 
@@ -35,7 +35,7 @@ def show_application_response():
                            first_name=first_name,
                            last_name=last_name,
                            job_title=desired_position,
-                           salary_requirement=salary_requirement)
+                           salary=salary_requirement)
 
 
 if __name__ == "__main__":
